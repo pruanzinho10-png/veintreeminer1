@@ -1,0 +1,6 @@
+Mesmo processo do EggGuard (GitHub Actions):
+1. Crie um repositorio NOVO no GitHub.
+2. Envie para ele: a pasta src, build.gradle.kts e settings.gradle.kts.
+3. Add file > Create new file, nome: .github/workflows/build.yml
+   e cole o conteudo do arquivo .github/workflows/build.yml deste projeto.
+4. Commit. Va em Actions, espere ficar verde e baixe o artefato VeinTreeMiner.

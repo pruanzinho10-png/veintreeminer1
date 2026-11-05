@@ -1,0 +1,17 @@
+ores:
+  enabled: true
+  # true = so ativa se o jogador estiver agachado (shift)
+  require-sneaking: false
+  # maximo de minerios quebrados de uma vez (alem do primeiro)
+  max-blocks: 64
+
+trees:
+  enabled: true
+  require-sneaking: false
+  # maximo de troncos quebrados de uma vez (alem do primeiro)
+  max-logs: 256
+  # maximo de folhas quebradas de uma vez
+  max-leaves: 1024
+  # true = so age em arvores naturais (com folhas naturais por perto).
+  # Evita destruir casas/construcoes feitas de tronco.
+  only-natural-trees: true

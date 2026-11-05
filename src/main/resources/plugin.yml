@@ -1,0 +1,14 @@
+name: VeinTreeMiner
+version: 1.0.0
+main: com.exemplo.veintreeminer.VeinTreeMiner
+api-version: '26.3'
+description: Vein miner para minerios e tree miner para arvores.
+commands:
+  veinminer:
+    description: Liga ou desliga o vein miner e o tree miner para voce.
+    usage: /veinminer
+    aliases: [vm]
+permissions:
+  veintreeminer.use:
+    description: Permite usar o vein miner e o tree miner.
+    default: true
